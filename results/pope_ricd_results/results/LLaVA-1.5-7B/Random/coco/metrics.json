@@ -1,0 +1,58 @@
+{
+  "protocol_version": "llava-ricd-tau1-random-adversarial-clean-v1",
+  "benchmark": "pope",
+  "model": "llava-1.5-7b",
+  "method": "ricd",
+  "dataset": "coco",
+  "setting": "random",
+  "seed": 1,
+  "generation": {
+    "do_sample": false,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": null,
+    "max_new_tokens": 32,
+    "use_cache": true
+  },
+  "ricd": {
+    "lambda_l": 1.0,
+    "lambda_s": 0.5,
+    "tau_l": 1.0,
+    "tau_v": 1.0,
+    "top_k_proxy": 10,
+    "apc_mode": "relative_max",
+    "theta_apc": 0.3
+  },
+  "metrics": {
+    "agla_official_compatible": {
+      "total": 3000,
+      "correct": 2645,
+      "tp": 1176,
+      "fp": 31,
+      "tn": 1469,
+      "fn": 324,
+      "unknown_predictions": 0,
+      "ambiguous_contains_both": 0,
+      "accuracy": 88.16666666666667,
+      "precision": 97.43164871582437,
+      "recall": 78.4,
+      "f1": 86.88585149612116,
+      "yes_ratio": 40.233333333333334
+    },
+    "strict_first_token": {
+      "total": 3000,
+      "correct": 2645,
+      "tp": 1176,
+      "fp": 31,
+      "tn": 1469,
+      "fn": 324,
+      "unknown_predictions": 0,
+      "ambiguous_contains_both": 0,
+      "accuracy": 88.16666666666667,
+      "precision": 97.43164871582437,
+      "recall": 78.4,
+      "f1": 86.88585149612116,
+      "yes_ratio": 40.233333333333334
+    }
+  }
+}

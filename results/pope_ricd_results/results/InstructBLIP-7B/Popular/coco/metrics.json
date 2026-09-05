@@ -1,0 +1,58 @@
+{
+  "protocol_version": "instructblip-ricd-j3-fixed-popular-adversarial-v1",
+  "benchmark": "pope",
+  "model": "instructblip",
+  "method": "ricd",
+  "dataset": "coco",
+  "setting": "popular",
+  "seed": 1,
+  "generation": {
+    "do_sample": false,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": null,
+    "max_new_tokens": 32,
+    "use_cache": true
+  },
+  "ricd": {
+    "lambda_l": 0.5,
+    "lambda_s": 1.0,
+    "tau_l": 1.0,
+    "tau_v": 1.0,
+    "top_k_proxy": 10,
+    "apc_mode": "relative_max",
+    "theta_apc": 0.3
+  },
+  "metrics": {
+    "agla_official_compatible": {
+      "total": 3000,
+      "correct": 2552,
+      "tp": 1223,
+      "fp": 171,
+      "tn": 1329,
+      "fn": 277,
+      "unknown_predictions": 0,
+      "ambiguous_contains_both": 0,
+      "accuracy": 85.06666666666666,
+      "precision": 87.73314203730273,
+      "recall": 81.53333333333333,
+      "f1": 84.51969592259849,
+      "yes_ratio": 46.46666666666667
+    },
+    "strict_first_token": {
+      "total": 3000,
+      "correct": 2552,
+      "tp": 1223,
+      "fp": 171,
+      "tn": 1329,
+      "fn": 277,
+      "unknown_predictions": 0,
+      "ambiguous_contains_both": 0,
+      "accuracy": 85.06666666666666,
+      "precision": 87.73314203730273,
+      "recall": 81.53333333333333,
+      "f1": 84.51969592259849,
+      "yes_ratio": 46.46666666666667
+    }
+  }
+}

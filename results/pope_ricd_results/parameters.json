@@ -1,0 +1,29 @@
+{
+  "LLaVA-1.5-7B": {
+    "lambda_l": 1.0,
+    "lambda_s": 0.5,
+    "tau_l": 1.0,
+    "tau_v": 1.0,
+    "beta": 0.3,
+    "top_k_proxy": 10,
+    "apc_mode": "relative_max"
+  },
+  "InstructBLIP-7B": {
+    "lambda_l": 0.5,
+    "lambda_s": 1.0,
+    "tau_l": 1.0,
+    "tau_v": 1.0,
+    "beta": 0.3,
+    "top_k_proxy": 10,
+    "apc_mode": "relative_max"
+  },
+  "Qwen2.5-VL-7B-Instruct": {
+    "lambda_l": 1.5,
+    "lambda_s": 1.0,
+    "tau_l": 1.0,
+    "tau_v": 1.0,
+    "beta": 0.3,
+    "top_k_proxy": 10,
+    "apc_mode": "relative_max"
+  }
+}

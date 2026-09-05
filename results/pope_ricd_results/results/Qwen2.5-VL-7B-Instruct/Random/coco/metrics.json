@@ -1,0 +1,58 @@
+{
+  "protocol_version": "qwen2.5-vl-ricd-clean-random-lambda-l15-v1",
+  "benchmark": "pope",
+  "model": "qwen2.5-vl",
+  "method": "ricd",
+  "dataset": "coco",
+  "setting": "random",
+  "seed": 1,
+  "generation": {
+    "do_sample": false,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": null,
+    "max_new_tokens": 32,
+    "use_cache": false
+  },
+  "ricd": {
+    "lambda_l": 1.5,
+    "lambda_s": 1.0,
+    "tau_l": 1.0,
+    "tau_v": 1.0,
+    "top_k_proxy": 10,
+    "apc_mode": "relative_max",
+    "theta_apc": 0.3
+  },
+  "metrics": {
+    "agla_official_compatible": {
+      "total": 3000,
+      "correct": 2629,
+      "tp": 1154,
+      "fp": 25,
+      "tn": 1475,
+      "fn": 346,
+      "unknown_predictions": 0,
+      "ambiguous_contains_both": 0,
+      "accuracy": 87.63333333333334,
+      "precision": 97.87955894826123,
+      "recall": 76.93333333333334,
+      "f1": 86.15154908547964,
+      "yes_ratio": 39.3
+    },
+    "strict_first_token": {
+      "total": 3000,
+      "correct": 2629,
+      "tp": 1154,
+      "fp": 25,
+      "tn": 1475,
+      "fn": 346,
+      "unknown_predictions": 0,
+      "ambiguous_contains_both": 0,
+      "accuracy": 87.63333333333334,
+      "precision": 97.87955894826123,
+      "recall": 76.93333333333334,
+      "f1": 86.15154908547964,
+      "yes_ratio": 39.3
+    }
+  }
+}

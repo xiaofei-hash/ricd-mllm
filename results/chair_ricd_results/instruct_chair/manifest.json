@@ -1,0 +1,36 @@
+{
+  "status": "COMPLETE",
+  "inference_started": true,
+  "protocol_version": "chair-instructblip-ricd-sampling-beta030-2026-08-26.v38",
+  "model": "instructblip",
+  "method": "ricd",
+  "samples": 1000,
+  "split_sha256": "8fd56399a43a854261682ecac03ab1fa9d9ad77a58de84ab8c741df89bbbb7d7",
+  "model_path": "Salesforce/instructblip-vicuna-7b",
+  "python": "/root/miniconda3/bin/python",
+  "generation": {
+    "max_new_tokens": 512,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": null,
+    "stop_on_eos": true,
+    "do_sample": true,
+    "num_beams": 1
+  },
+  "parameters": {
+    "lambda_l": 1.5,
+    "lambda_s": 0.5,
+    "beta": 0.3,
+    "tau_l": 0.3,
+    "tau_v": 0.3,
+    "top_k_proxy": 10,
+    "apc_mode": "relative_max",
+    "shallow_layer_index": 4
+  },
+  "implementation": {
+    "implementation_id": "ricd-instructblip-sampling-beta030-v38"
+  },
+  "config": "/root/autodl-tmp/CCR-master/configs/chair_instructblip_ricd_v38_sampling_beta030.json",
+  "output": "/root/autodl-tmp/CCR-master/outputs/chair_instructblip_ricd_v38_sampling_beta030/instructblip/chair/ricd/seed1",
+  "prompt": "Please describe the image in detail."
+}

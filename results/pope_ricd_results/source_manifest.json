@@ -1,0 +1,326 @@
+[
+  {
+    "model": "LLaVA-1.5-7B",
+    "type": "Random",
+    "dataset": "coco",
+    "namespace": "llava_ricd_tau1_clean_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/llava_ricd_tau1_clean_v1/llava-1.5-7b/pope/ricd/coco/random/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "type": "Random",
+    "dataset": "aokvqa",
+    "namespace": "llava_ricd_tau1_clean_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/llava_ricd_tau1_clean_v1/llava-1.5-7b/pope/ricd/aokvqa/random/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "type": "Random",
+    "dataset": "gqa",
+    "namespace": "llava_ricd_tau1_clean_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/llava_ricd_tau1_clean_v1/llava-1.5-7b/pope/ricd/gqa/random/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "type": "Popular",
+    "dataset": "coco",
+    "namespace": "llava_ricd_tau1_popular_clean_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/llava_ricd_tau1_popular_clean_v1/llava-1.5-7b/pope/ricd/coco/popular/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "type": "Popular",
+    "dataset": "aokvqa",
+    "namespace": "llava_ricd_tau1_popular_clean_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/llava_ricd_tau1_popular_clean_v1/llava-1.5-7b/pope/ricd/aokvqa/popular/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "type": "Popular",
+    "dataset": "gqa",
+    "namespace": "llava_ricd_tau1_popular_clean_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/llava_ricd_tau1_popular_clean_v1/llava-1.5-7b/pope/ricd/gqa/popular/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "type": "Adversarial",
+    "dataset": "coco",
+    "namespace": "llava_ricd_tau1_clean_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/llava_ricd_tau1_clean_v1/llava-1.5-7b/pope/ricd/coco/adversarial/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "type": "Adversarial",
+    "dataset": "aokvqa",
+    "namespace": "llava_ricd_tau1_clean_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/llava_ricd_tau1_clean_v1/llava-1.5-7b/pope/ricd/aokvqa/adversarial/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "type": "Adversarial",
+    "dataset": "gqa",
+    "namespace": "llava_ricd_tau1_clean_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/llava_ricd_tau1_clean_v1/llava-1.5-7b/pope/ricd/gqa/adversarial/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "InstructBLIP-7B",
+    "type": "Random",
+    "dataset": "coco",
+    "namespace": "instructblip_ricd_random_j3_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/instructblip_ricd_random_j3_v1/instructblip/pope/ricd/coco/random/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "InstructBLIP-7B",
+    "type": "Random",
+    "dataset": "aokvqa",
+    "namespace": "instructblip_ricd_random_j3_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/instructblip_ricd_random_j3_v1/instructblip/pope/ricd/aokvqa/random/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "InstructBLIP-7B",
+    "type": "Random",
+    "dataset": "gqa",
+    "namespace": "instructblip_ricd_random_j3_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/instructblip_ricd_random_j3_v1/instructblip/pope/ricd/gqa/random/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "InstructBLIP-7B",
+    "type": "Popular",
+    "dataset": "coco",
+    "namespace": "instructblip_ricd_j3_fixed_popular_adversarial_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/instructblip_ricd_j3_fixed_popular_adversarial_v1/instructblip/pope/ricd/coco/popular/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "InstructBLIP-7B",
+    "type": "Popular",
+    "dataset": "aokvqa",
+    "namespace": "instructblip_ricd_j3_fixed_popular_adversarial_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/instructblip_ricd_j3_fixed_popular_adversarial_v1/instructblip/pope/ricd/aokvqa/popular/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "InstructBLIP-7B",
+    "type": "Popular",
+    "dataset": "gqa",
+    "namespace": "instructblip_ricd_j3_fixed_popular_adversarial_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/instructblip_ricd_j3_fixed_popular_adversarial_v1/instructblip/pope/ricd/gqa/popular/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "InstructBLIP-7B",
+    "type": "Adversarial",
+    "dataset": "coco",
+    "namespace": "instructblip_ricd_j3_fixed_popular_adversarial_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/instructblip_ricd_j3_fixed_popular_adversarial_v1/instructblip/pope/ricd/coco/adversarial/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "InstructBLIP-7B",
+    "type": "Adversarial",
+    "dataset": "aokvqa",
+    "namespace": "instructblip_ricd_j3_fixed_popular_adversarial_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/instructblip_ricd_j3_fixed_popular_adversarial_v1/instructblip/pope/ricd/aokvqa/adversarial/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "InstructBLIP-7B",
+    "type": "Adversarial",
+    "dataset": "gqa",
+    "namespace": "instructblip_ricd_j3_fixed_popular_adversarial_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/instructblip_ricd_j3_fixed_popular_adversarial_v1/instructblip/pope/ricd/gqa/adversarial/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "type": "Random",
+    "dataset": "coco",
+    "namespace": "qwen2_5_vl_ricd_clean_random_lambda_l15_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/qwen2_5_vl_ricd_clean_random_lambda_l15_v1/qwen2.5-vl/pope/ricd/coco/random/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "type": "Random",
+    "dataset": "aokvqa",
+    "namespace": "qwen2_5_vl_ricd_clean_random_lambda_l15_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/qwen2_5_vl_ricd_clean_random_lambda_l15_v1/qwen2.5-vl/pope/ricd/aokvqa/random/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "type": "Random",
+    "dataset": "gqa",
+    "namespace": "qwen2_5_vl_ricd_clean_random_lambda_l15_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/qwen2_5_vl_ricd_clean_random_lambda_l15_v1/qwen2.5-vl/pope/ricd/gqa/random/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "type": "Popular",
+    "dataset": "coco",
+    "namespace": "qwen2_5_vl_ricd_clean_fixed_l15_popular_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/qwen2_5_vl_ricd_clean_fixed_l15_popular_v1/qwen2.5-vl/pope/ricd/coco/popular/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "type": "Popular",
+    "dataset": "aokvqa",
+    "namespace": "qwen2_5_vl_ricd_clean_fixed_l15_popular_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/qwen2_5_vl_ricd_clean_fixed_l15_popular_v1/qwen2.5-vl/pope/ricd/aokvqa/popular/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "type": "Popular",
+    "dataset": "gqa",
+    "namespace": "qwen2_5_vl_ricd_clean_fixed_l15_popular_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/qwen2_5_vl_ricd_clean_fixed_l15_popular_v1/qwen2.5-vl/pope/ricd/gqa/popular/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "type": "Adversarial",
+    "dataset": "coco",
+    "namespace": "qwen2_5_vl_ricd_clean_fixed_l15_adversarial_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/qwen2_5_vl_ricd_clean_fixed_l15_adversarial_v1/qwen2.5-vl/pope/ricd/coco/adversarial/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "type": "Adversarial",
+    "dataset": "aokvqa",
+    "namespace": "qwen2_5_vl_ricd_clean_fixed_l15_adversarial_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/qwen2_5_vl_ricd_clean_fixed_l15_adversarial_v1/qwen2.5-vl/pope/ricd/aokvqa/adversarial/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  },
+  {
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "type": "Adversarial",
+    "dataset": "gqa",
+    "namespace": "qwen2_5_vl_ricd_clean_fixed_l15_adversarial_v1",
+    "source": "/root/autodl-tmp/CCR-master/outputs/qwen2_5_vl_ricd_clean_fixed_l15_adversarial_v1/qwen2.5-vl/pope/ricd/gqa/adversarial/seed1",
+    "files": [
+      "metrics.json",
+      "predictions.jsonl",
+      "rng_state.pt"
+    ]
+  }
+]

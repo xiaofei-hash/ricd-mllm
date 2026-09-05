@@ -1,0 +1,42 @@
+{
+  "version": "llava-ricd-tau1-popular-clean-v1",
+  "scope": "LLaVA-1.5-7B RiCD one-shot evaluation on all three POPE Popular groups without label-driven post-processing",
+  "model": "llava-1.5-7b",
+  "seeds": [1],
+  "generation": {
+    "do_sample": false,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": null,
+    "max_new_tokens": 32,
+    "use_cache": true
+  },
+  "ricd": {
+    "lambda_l": 1.0,
+    "lambda_s": 0.5,
+    "tau_l": 1.0,
+    "tau_v": 1.0,
+    "top_k_proxy": 10,
+    "apc_mode": "relative_max",
+    "theta_apc": 0.30
+  },
+  "pope": {
+    "datasets": ["coco", "aokvqa", "gqa"],
+    "settings": ["popular"],
+    "samples_per_dataset_setting": 3000,
+    "positive_per_dataset_setting": 1500,
+    "negative_per_dataset_setting": 1500,
+    "prompt_suffix": " Please answer this question with one word.",
+    "primary_evaluator": "agla_official_compatible",
+    "audit_evaluator": "strict_first_token",
+    "aggregation": {
+      "dataset_setting": "single seed-1 run",
+      "main_table_setting": "macro mean over COCO, A-OKVQA, and GQA Popular"
+    }
+  },
+  "chair": {
+    "samples": 500,
+    "prompt": "Please describe this image in detail.",
+    "id_source": "chair/data/chair_questions.json"
+  }
+}

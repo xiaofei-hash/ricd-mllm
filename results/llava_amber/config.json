@@ -1,0 +1,81 @@
+{
+  "version": "amber-cover-neighbor-greedy128-full-2026-08-28.v1-llava_ln4",
+  "scope": "Full AMBER local-neighborhood RiCD candidate llava_ln4",
+  "seed": 1,
+  "amber": {
+    "samples": 1004,
+    "query_file": "third_party/AMBER/data/query/query_generative.json",
+    "image_dir": "data/amber/images",
+    "prompt_policy": "registered_common_grounded_prompt",
+    "prompt": "List the visible objects and describe their relationships in one sentence.",
+    "metrics": [
+      "Cover",
+      "CHAIR",
+      "Hal",
+      "Cog"
+    ],
+    "official_repository_commit": "534babf6bbfcce2e735c26289dedfb21cef3c939"
+  },
+  "generation": {
+    "do_sample": false,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": null,
+    "max_new_tokens": 128
+  },
+  "models": {
+    "llava-1.5-7b": {
+      "python": "/root/miniconda3/bin/python",
+      "ricd": {
+        "lambda_l": 1.0,
+        "lambda_s": 0.5,
+        "tau_l": 0.3,
+        "tau_v": 0.3,
+        "theta_apc": 0.3,
+        "top_k_proxy": 10,
+        "apc_mode": "relative_max"
+      },
+      "parameter_source": "selected LLaVA CHAIR development configuration v3"
+    },
+    "instructblip": {
+      "python": "/root/miniconda3/bin/python",
+      "ricd": {
+        "lambda_l": 1.5,
+        "lambda_s": 0.5,
+        "tau_l": 0.3,
+        "tau_v": 0.3,
+        "theta_apc": 0.3,
+        "top_k_proxy": 10,
+        "apc_mode": "relative_max"
+      },
+      "parameter_source": "selected InstructBLIP CHAIR development configuration v5"
+    },
+    "qwen2.5-vl": {
+      "python": "/root/autodl-tmp/qwen25vl_env/bin/python",
+      "max_pixels": 1003520,
+      "max_pixels_note": "1280 * 28 * 28; identical processor cap for Regular and RiCD on 24GB GPUs",
+      "ricd": {
+        "lambda_l": 2.0,
+        "lambda_s": 0.5,
+        "tau_l": 0.3,
+        "tau_v": 0.3,
+        "theta_apc": 0.3,
+        "top_k_proxy": 10,
+        "apc_mode": "relative_max"
+      },
+      "parameter_source": "selected shared CHAIR configuration v2"
+    }
+  },
+  "reporting": {
+    "amber_cover": "official AMBER generative evaluation on 1004 images",
+    "cider": "same fixed 500-image COCO-CHAIR split with official COCO val2014 reference captions",
+    "methods": [
+      "regular",
+      "ricd"
+    ],
+    "seeds": [
+      1
+    ],
+    "selection_note": "Local-neighborhood candidate fixed before full evaluation; no within-run retuning."
+  }
+}

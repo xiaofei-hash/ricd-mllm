@@ -1,0 +1,25 @@
+* text=auto
+
+# Keep source and metadata text files on LF line endings.
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Common research artifacts are binary.
+*.pt binary
+*.pth binary
+*.ckpt binary
+*.safetensors binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+
+# Preserve reviewer evidence byte-for-byte, including original line endings.
+/results/amber_ricd_results/** -text
+/results/chair_ricd_results/** -text
+/results/pope_ricd_results/** -text

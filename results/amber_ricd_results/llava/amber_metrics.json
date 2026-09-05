@@ -1,0 +1,13 @@
+{
+  "evaluator": "official AMBER generative evaluator",
+  "official_repository_commit": "534babf6bbfcce2e735c26289dedfb21cef3c939",
+  "num_samples": 1004,
+  "metrics": {
+    "chair": 5.0,
+    "cover": 45.4,
+    "hal": 14.8,
+    "cog": 0.9
+  },
+  "predictions": "/root/autodl-tmp/CCR-master/outputs/amber_cover_neighbor_greedy128_full_v1_llava_ln4/llava-1.5-7b/amber/ricd/seed1/predictions.jsonl",
+  "official_stdout": "Generative Task:\nCHAIR:\t\t 5.0\nCover:\t\t 45.4\nHal:\t\t 14.8\nCog:\t\t 0.9 \n\n"
+}

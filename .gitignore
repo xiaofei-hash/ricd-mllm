@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and editors
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+
+# Models, datasets, and generated outputs
+/data/
+/models/
+/outputs/
+/checkpoints/
+/third_party/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.log
+*.pid
+
+# Reviewer evidence deliberately includes RNG checkpoints and raw run logs.
+!/results/**/*.pt
+!/results/**/*.log
+
+# OS files
+.DS_Store
+Thumbs.db

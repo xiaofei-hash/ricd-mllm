@@ -1,0 +1,18 @@
+{
+  "protocol_version": "amber-instruct-cover-recovery-greedy128-full-2026-08-28.v1-a50",
+  "config": "/root/autodl-tmp/CCR-master/configs/generated/amber_instruct_cover_recovery_greedy128_full_v1_a50.json",
+  "query_sha256": "b7e4c36596126ee36d2c3922638b7fa98743c26efda78fea2315f4425258d087",
+  "model": "instructblip",
+  "method": "ricd",
+  "seed": 1,
+  "prompt_policy": "registered_common_grounded_prompt",
+  "adapter_kwargs": {},
+  "source_sha256": {
+    "scripts/run_amber_protocol.py": "50e85cebe4c8bf66d401158647d3659f93c7e93aea7db3f8375bebd8e7534e87",
+    "src/pipeline.py": "d23f3217dfc0c02f322fb126fa1a1f581f8064e39767fcb73aa62e99231c1590",
+    "src/decoder/rccr_decoder.py": "be71c0df95fd0736ed8fc4a29861a7fcf971ca0c160fefd4823def4f6bf26bed",
+    "src/proxy/conflict_proxies.py": "b98e236f5c6a7c5ff7b36b1592e05cdca087556a8f8b552c592eaafe5d283677",
+    "src/risk/risk_surrogates.py": "69bec2a2fbc0f49bfb97bc5fd85a2ffb6924edfa7aac363a2f93a9e027ad28f3",
+    "src/models/instructblip_adapter.py": "13de6979d9676b553b776557838af315297e8faba30be733a22cbd1a3653ad1b"
+  }
+}

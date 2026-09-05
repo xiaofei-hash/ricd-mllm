@@ -1,0 +1,31 @@
+{
+  "input": "tmp_eval/llava_chair_user_20260826/predictions.jsonl",
+  "row_count": 1000,
+  "unique_image_ids": 1000,
+  "caption_prediction_mismatches": 0,
+  "models": [
+    "llava-1.5-7b"
+  ],
+  "methods": [
+    "ricd"
+  ],
+  "split_check": {
+    "checked": true,
+    "expected_count": 1000,
+    "exact_order_match": true,
+    "set_match": true,
+    "missing_count": 0,
+    "extra_count": 0
+  },
+  "evaluator_return": {
+    "CHAIR_i": 0.14100738055159912,
+    "CHAIR_s": 0.466,
+    "num_captions": 1000,
+    "total_objects_mentioned": 7723,
+    "hallucinated_objects": 1089,
+    "hallucinated_captions": 466,
+    "Recall": 0.8016759776536313,
+    "recalled_gt_objects": 2583,
+    "total_gt_objects": 3222
+  }
+}
